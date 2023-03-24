@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Usuario</legend>
+            <br>
+            <label for="iname">Nome</label>
+            <br>
+            <input id="iname" name="txtname" type="text" placeholder="Digite seu nome">
+            <br>
+            <br>
+            <label for="idate">Data de nascimento</label>
+            <br>
+            <input id="idatenas" name="ddatenas" type="date">
+            <br>
+            <br>
+            <label for="imail">E-mail</label>
+            <br>
+            <input id="imail" name="emmail" type="email" placeholder="Digite seu e-mail">
+            <br>
+            <br>
+            <label for="icmail">Confirme seu e-mail</label>
+            <br>
+            <input id="icmail" name="emcmail" type="email" placeholder="Confirme seu e-mail">
+            <br>
+            <br>
+            <label for="isexo">Sexo</label>
+            <br>
+            <select name="slsexo" id="isexo">
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="A">Agenero</option>
+                <option value="P">Prefiro não falar</option>
+            </select>
+            <br>
+            <br>
+            <label>Tipo:</label>
+            <br>
+            <input type="radio" name="rtipo" id="iusuario" value="U">
+            <label for="iusuario">Usuário</label>
+            <br>
+            <input type="radio" name="rtipo" id="iadmin" value="A">
+            <label for="iadmin">Admin</label>
+            <br>
+            <br>
+            <label for="ifale">Fale sobre você</label>
+            <br>
+            <textarea name="txtafale" id="ifale" cols="19" rows="10" placeholder="Fale sobre você"></textarea>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+</body>
+</html>

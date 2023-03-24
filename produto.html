@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Produto</legend>
+            <br>
+            <label for="iproduto">Produto</label>
+            <br>
+            <input id="iproduto" name="pproduto" type="text" placeholder="Nome do produto">
+            <br>
+            <br>
+            <label for="idatacads">Data Cadastro</label>
+            <br>
+            <input id="idatacads" name="ddatacads" type="date" >
+            <br>
+            <br>
+            <label for="ipeso">Peso</label>
+            <br>
+            <input id="ipeso" name="ppeso" type="number" placeholder="Digite o peso">
+            <br>
+            <br>
+            <label for="icategoria">Categoria</label>
+            <br>
+            <select name="slcategoria" id="icategoria">
+                <option value="E">Eletrônico</option>
+                <option value="M">Móvel</option>
+            </select>
+            <br>
+            <br>
+            <label>Tipo:</label>
+            <br>
+            <input type="radio" name="rtipo" id="inovo" value="N">
+            <label for="inovo">Novo</label>
+            <br>
+            <input type="radio" name="rtipo" id="iusado" value="U">
+            <label for="iusado">Usado</label>
+            <br>
+            <br>
+            <label for="idescrição">Descrição</label>
+            <br>
+            <textarea name="txtdesc" id="idescrição" cols="19" rows="10" placeholder="Descrever"></textarea>
+            <br>
+            <br>
+            <label for="iavaliacao">Avaliação (0-10)</label>
+            <br>
+            <input type="range" id="iavaliacao" name="aavaliacao" min="0" max="10">
+            <br>
+            <br>
+            <input type="submit" value="Entrar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+</body>
+</html>
